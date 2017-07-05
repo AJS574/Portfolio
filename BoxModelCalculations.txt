@@ -1,0 +1,55 @@
+
+
+
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+_____________________________________________________________________________________
+
+My calculations:
+
+Height:  (top) margin, border, padding, height (bottom) padding, border, margin
+
+20+1+10+150+10+1+20= 212 
+
+
+		Total Height = 212 px 
+
+
+Width:Left margin, border, padding, width (right) padding, border, margin
+
+20+1+10+400+10+1+20=462
+
+		Total Width = 462 px 
+
+
+
+Browser calculated height:
+ height:  (top) border, padding,  height, (bottom) padding, border 
+
+1+10+150+10+1= 172
+		
+		Total Browser Height = 172 px 
+
+
+Browser calculated width:
+
+   width:  (left) border, padding, width, (right) padding, border
+
+1+10+400+10+1=422
+
+		Total Browser Width = 422 px 
+
+
+
