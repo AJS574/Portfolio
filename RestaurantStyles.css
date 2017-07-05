@@ -2,6 +2,26 @@ body {
     background-color: lightcyan 
     }
 
+a {
+   font-family: monospace;
+   text-decoration: none;
+   font-weight: normal;
+  }
+  a:link {
+    color: forestgreen;  
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: yellow;
+  }
+  a:active {
+   text-decoration: none;
+  }
+
 h1{
     color: royalblue;
 }
