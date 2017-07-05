@@ -1,0 +1,22 @@
+body {
+    background-color: lightcyan 
+    }
+
+h1{
+    color: royalblue;
+}
+
+h2{
+    color: red;
+}
+
+footer {
+     color: green;
+     /* text-align: center;*/
+} 
+
+table, th, td {
+     border: 1px solid black;
+} 
+
+tr:nth-child(even) {background-color: #f2f2f2} 
