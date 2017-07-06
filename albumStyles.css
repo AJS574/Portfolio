@@ -8,6 +8,13 @@ p {
      text-align: center;
 } 
 
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: center;
+}
+
 table, th, td {
      border: 1px solid black;
      text-align: center;
@@ -22,5 +29,19 @@ tr, {
     background-color:"light yellow";
     } 
 
-                
+tbody tr:nth-child(odd) {
+  background-color: lightblue;
+}
+tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+               
 

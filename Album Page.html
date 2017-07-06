@@ -1,10 +1,12 @@
 <!DOCTYPE html>
     <html lang="en">
       <HEAD>
-        <title>Album</title>
+        <title>Album</title>            
         <STYLE type="text/css">
              td {border-width: 1; border: solid; text-align: justify; color: royalblue}
         </STYLE>
+        <!-- <link rel="stylesheet" type="text/css" href="C:\Users\n0001123\Repos\Portfolio\albumStyles.css">-->
+        <link rel"stylesheet" href="C:\Users\n0001123\Repos\Portfolio\Bootstrap CDN.css"/>
         <link rel="stylesheet" type="text/css" href="C:\Users\n0001123\Repos\Portfolio\albumStyles.css">
         <style type="text/css">
             a {
@@ -29,14 +31,16 @@
 </head> 
     <!--added internal style to the track data 
     added external style link-->
-         <body>
-       <div style="background-image:url(Images/SWAlbumCover.png);
-            background-repeat: repeat-x;
-            background-position:center;
-            background-size: 250px,100px;
-            height:300px">
-        </div>
-          <!-- <h2><center><img src="C:\Users\n0001123\Repos\Portfolio\Images\SWAlbumCover.png" width= 20%></center></h2>-->        
+     <body>    
+      <div style="background-image:url(Images/SWAlbumCover.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250px,100px;
+        border-radius: 50%;
+        width:200px;
+        height:200px;">
+       </div>
+       <!-- <h2><center><img src="C:\Users\n0001123\Repos\Portfolio\Images\SWAlbumCover.png" width= 20%></center></h2>-->        
           <h2><center>"Roll with It"</center></h2>       
         <h2><center><a href="https://www.stevewinwood.com/">Steve Winwood</a></center></h2>     
         <h2><center>"Released June 21, 1988"</center></h2>
@@ -52,55 +56,63 @@
             <li>Andrew Love       tenor sax and solo</li>
             <li>Tessa Niles       backing vocals</li>
             <li>Mark Williamson   backing vocals</li>
-                 </ul>
-            <table border= "1" width="100%">
-            <caption>Tracks</caption>
-            <tr bgcolor="grey", font-style="italic",>
+        </ul>
+        <tbody>
+           <div class="container">
+             <div class="row">  
+             <div class="table-responsive">
+              <table border="1" width="100%">
+             <caption>Tracks</caption>
+             <thead>
+              <tr bgcolor="grey">
                 <th>Track</th>
                 <th>Track Title</th>
                 <th> Track Length</th>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+             </thead>
+             <tbody>
+            <tr>
                 <td>1</td>
                 <td>Roll with It</td>
                 <td>05:20</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>2</td>
                 <td>Holding On</td>
                 <td>06:15</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>3</td>
                 <td>The Morning Side</td>
                 <td>05:14</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>4</td>
                 <td>Put on Your Dancing Shoes</td>
                 <td>05:11</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>5</td>
                 <td>Don't You Know What the Night Can Do?</td>
                 <td>06:54</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>6</td>
                 <td>Hearts on Fire</td>
                 <td>05:15</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>7</td>
                 <td>One More Morning</td>
                 <td>04:58</td>
             </tr>
-            <tr bgcolor="lightyellow",font-style="italic">
+            <tr>
                 <td>8</td>
                 <td>Shining Song</td>
                 <td>05:28</td>
             </tr>
              </table>
+            </div>
          </body>
         </html>
 
